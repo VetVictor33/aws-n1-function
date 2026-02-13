@@ -16,5 +16,5 @@ jobs:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_region: sa-east-1
-          function_name: n1-function
+          function_name: arn:aws:lambda:sa-east-1:453710163806:function:n1
           source: src/index.js
