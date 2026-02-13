@@ -1,4 +1,4 @@
-export default function handler(event) {
+export function handler(event) {
   return {
     statusCode: 200,
     body: JSON.stringify(
